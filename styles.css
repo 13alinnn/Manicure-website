@@ -35,4 +35,45 @@ body {
     background-color: pink;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 50px 200px;
+    gap:25px;
+}
+.hero-text {
+    flex-basis: 0;
+}
+.one img {
+    flex-basis: 0;
+    width: auto;
+    height: 200px;
+
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 20px 200px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: palevioletred;
+}
+.images img {
+    width:150px;
+    border-radius: 10px;
+    border:1px solid pink;
+    height: auto;
+}
+.duo {
+    text-align: center;
+    font-family: cursive;
 }
